@@ -29,6 +29,10 @@ requirements:
     - pydantic >=2.12.0,<3.0.0
     - typing_extensions >=4.15.0,<5.0.0
     - wiredb >=0.4.0,<0.5.0
+    - cyclopts >=4.0.0,<5.0.0
+    - wire-file >=0.5.0,<0.6.0
+    - wire-websocket >=0.5.0,<0.6.0
+    - httpx >=0.28.1,<0.29.0
 
 tests:
   - python:
