@@ -34,6 +34,7 @@ requirements:
     - wire-websocket >=0.7.1,<0.8.0
     - httpx >=0.28.1,<0.29.0
     - simpleeval >=1.0.3,<2.0.0
+    - rich
 
 tests:
   - python:
