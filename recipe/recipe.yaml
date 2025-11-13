@@ -2,7 +2,7 @@
 schema_version: 1
 
 context:
-  version: "0.5.0"
+  version: "0.6.0"
 
 package:
   name: cocat
@@ -10,7 +10,7 @@ package:
 
 source:
   - url: https://pypi.org/packages/source/c/cocat/cocat-${{ version }}.tar.gz
-    sha256: 1b90573018a8136e1c0736f892944ab9d41e4f7503fa09a7562a7a0648d67c2f
+    sha256: 60454f53282f631ecc68943f580150db30df876773e96bfa3c61f66d0d1ed74d
 
 build:
   number: 0
@@ -28,10 +28,10 @@ requirements:
     - pycrdt >=0.12.40,<0.13.0
     - pydantic >=2.12.0,<3.0.0
     - typing_extensions >=4.15.0,<5.0.0
-    - wiredb >=0.6.2,<0.7.0
+    - wiredb >=0.7.1,<0.8.0
     - cyclopts >=4.0.0,<5.0.0
-    - wire-file >=0.6.1,<0.7.0
-    - wire-websocket >=0.6.1,<0.7.0
+    - wire-file >=0.7.1,<0.8.0
+    - wire-websocket >=0.7.1,<0.8.0
     - httpx >=0.28.1,<0.29.0
     - simpleeval >=1.0.3,<2.0.0
 
