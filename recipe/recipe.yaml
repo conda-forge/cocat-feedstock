@@ -2,7 +2,7 @@
 schema_version: 1
 
 context:
-  version: "0.9.0"
+  version: "0.11.0"
 
 package:
   name: cocat
@@ -10,7 +10,7 @@ package:
 
 source:
   - url: https://pypi.org/packages/source/c/cocat/cocat-${{ version }}.tar.gz
-    sha256: 2891aa0f089347e3dc6883b4408685b906f6af43ad154613d6c1087c80c04eb6
+    sha256: 21df4334d235899dd0d913e7e01678a0b2efc2e9ea10447b8570d67bca863f0d
 
 build:
   number: 0
